@@ -1,6 +1,5 @@
-// JavaScript Document
+
 $(function(){
-//O conteúdo deve ficar aqui
 var vez = 1;
 var vencedor = "";
 
@@ -48,5 +47,3 @@ $(".casa").click(function(){
 
 });
 
-
-//http://www.linhadecodigo.com.br/artigo/3506/criando-um-jogo-da-velha-em-javascript-html-e-css.aspx
