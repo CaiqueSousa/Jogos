@@ -1,0 +1,98 @@
+#include <SDL2/SDL.h>
+#include <iostream>
+#include <math.h>
+
+#define LINHAS 3
+#define COLUNAS 3
+#define LADO 1
+#define tamanho 30
+
+using namespace std;
+
+int main (int argc, char *argv[]){
+
+
+    int JogoAtivo = 1;
+    SDL_Window* window = NULL;
+    SDL_Surface* screenSurface = NULL;
+    SDL_Event evento;
+    SDL_Rect matriz [LINHAS][COLUNAS];
+    int cores [] = { 0xFFFFFF, 0xFF0000, 0x00FF00, 0x00000FF};
+    int contretangulo = 0;
+/*---------------------------------------------------------------*/
+    if(SDL_Init(SDL_INIT_VIDEO) < 0) {
+        cout <<"Nao foi possivel inicializar a SDL! "<<" SDL_Error: "<<SDL_GetError() << endl;
+            return 1;
+    }
+
+    // posiçao inical da matriz
+    int pos_ini_y = 450;
+    int pos_ini_x = 200;
+    int pos = 50;
+
+    for(int i = 0; i < LINHAS; i++){
+            for(int j = 0; j < COLUNAS; j++){
+                matriz[i][j].x =  (i*pos)+pos_ini_x;
+                matriz[i][j].y =  (j*pos)+pos_ini_y;
+                matriz[i][j].w = pos;
+                matriz[i][j].h = pos;
+
+
+                cout << "RETANGULO : " << contretangulo++ << endl;
+                cout << "COlUNA :" <<j << endl;
+                cout << "LINHA :" <<i << endl;
+                cout <<  "POSIÇAO X: "<<matriz[i][j].x <<endl;
+                cout <<  "POSIÇAO Y: "<<matriz[i][j].y <<endl;
+                cout << "------------------------------------" <<endl;
+            }
+
+
+
+    }
+
+
+
+
+
+ // criando a janela
+    window = SDL_CreateWindow("MATRIZ", 50, 50, 800, 600, SDL_WINDOW_SHOWN);
+        if( window == NULL ){
+            cout <<"Janela nao pode ser criada! " <<" SDL_Error: "<< SDL_GetError() << endl;
+                SDL_Quit();
+                    return 2;
+
+        }
+
+    screenSurface = SDL_GetWindowSurface( window );
+
+
+    while ( JogoAtivo ){
+
+        while (SDL_PollEvent(&evento) ){
+            //fechar janela
+            if( evento.type == SDL_QUIT)
+                    JogoAtivo = 0;
+        }
+        // limpa a tela
+        SDL_FillRect( screenSurface, NULL, 0x000000 );
+
+
+       for(int i = 0; i < LINHAS; i++){
+            for(int j = 0; j < COLUNAS; j++){
+                SDL_FillRect( screenSurface, &matriz[i][j],cores[i]);
+            }
+        }
+
+
+        SDL_UpdateWindowSurface( window );
+
+
+
+
+        SDL_Delay(50);
+
+
+
+    }
+}
+

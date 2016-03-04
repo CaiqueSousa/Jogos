@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1432847577 source:c:\_acaique\lacamentoobliquo2205\aula.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	<math.h>
+	<fstream>
+	<SDL2/SDL_image.h>
+
+1432861203 source:c:\_acaique\lacamentoobliquo2805\aula.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	<math.h>
+	<fstream>
+	<SDL2/SDL_image.h>
+
+1432935608 source:c:\_acaique\lacamentoobliquo2805atualizado\aula.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	<math.h>
+	<fstream>
+	<string>
+	<SDL2/SDL_image.h>
+
+1433127068 source:c:\users\caique\desktop\gamepi_ii\lacamentoobliquo2905atualizado\aula.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	<math.h>
+	<fstream>
+	<string>
+	<SDL2/SDL_image.h>
+
+1433197911 source:c:\_acaique\lacamentoobliquo3105\aula.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	<math.h>
+	<fstream>
+	<string>
+	<SDL2/SDL_image.h>
+
+1433710928 source:e:\.trashes\lacamentoobliquo3105\aula.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	<math.h>
+	<fstream>
+	<string>
+	<SDL2/SDL_image.h>
+
+1433710928 source:e:\.trashes\lacamentoobliquo3105\starwars.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	<math.h>
+	<fstream>
+	<string>
+	<SDL2/SDL_image.h>
+
