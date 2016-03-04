@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0429C79B1959B7B8006C12C7 /* Hidrante.png in Resources */ = {isa = PBXBuildFile; fileRef = 0429C7951959B7B8006C12C7 /* Hidrante.png */; };
+		0429C79C1959B7B8006C12C7 /* predio 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0429C7961959B7B8006C12C7 /* predio 5.png */; };
+		0429C79D1959B7B8006C12C7 /* predio 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0429C7971959B7B8006C12C7 /* predio 9.png */; };
+		0429C79E1959B7B8006C12C7 /* predio 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0429C7981959B7B8006C12C7 /* predio 11.png */; };
+		0429C79F1959B7B8006C12C7 /* predio 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0429C7991959B7B8006C12C7 /* predio 12.png */; };
+		0429C7A01959B7B8006C12C7 /* predio 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 0429C79A1959B7B8006C12C7 /* predio 13.png */; };
+		0429C7A21959B847006C12C7 /* predio 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0429C7A11959B847006C12C7 /* predio 10.png */; };
+		0429C7A41959B8B9006C12C7 /* box mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 0429C7A31959B8B9006C12C7 /* box mail.png */; };
+		0429C7A71959C426006C12C7 /* Poste off(Cyber Girl Force).png in Resources */ = {isa = PBXBuildFile; fileRef = 0429C7A51959C426006C12C7 /* Poste off(Cyber Girl Force).png */; };
+		0429C7A81959C426006C12C7 /* Poste on(Cyber Girl Force).png in Resources */ = {isa = PBXBuildFile; fileRef = 0429C7A61959C426006C12C7 /* Poste on(Cyber Girl Force).png */; };
+		0429C7AB1959CA98006C12C7 /* RandomParallax.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429C7AA1959CA98006C12C7 /* RandomParallax.m */; };
+		0429C7AE1959CC46006C12C7 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429C7AD1959CC46006C12C7 /* Score.m */; };
+		042A3301195C5928009F2881 /* score.png in Resources */ = {isa = PBXBuildFile; fileRef = 042A3300195C5928009F2881 /* score.png */; };
+		042CB80B195DAE8B00D39683 /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 042CB80A195DAE8B00D39683 /* GameOver.m */; };
+		042CB80D195DB65800D39683 /* logo da equipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 042CB80C195DB65800D39683 /* logo da equipe.png */; };
+		042CB810195DB66700D39683 /* Logo.m in Sources */ = {isa = PBXBuildFile; fileRef = 042CB80F195DB66700D39683 /* Logo.m */; };
+		042CB812195DBC8C00D39683 /* Tiro1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 042CB811195DBC8C00D39683 /* Tiro1.wav */; };
+		042CB814195DBE8800D39683 /* explosao do inimigo 1.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 042CB813195DBE8800D39683 /* explosao do inimigo 1.WAV */; };
+		042D00021948AA7B0081837A /* Tile chao(Cyber Girl Force).png in Resources */ = {isa = PBXBuildFile; fileRef = 042D00011948AA7B0081837A /* Tile chao(Cyber Girl Force).png */; };
+		042DFFFE1948A24E0081837A /* CasinhaFundo.m in Sources */ = {isa = PBXBuildFile; fileRef = 042DFFFD1948A24E0081837A /* CasinhaFundo.m */; };
+		043493F3194B39E900D9AA8D /* FMMParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 043493F2194B39E900D9AA8D /* FMMParallaxNode.m */; };
+		04349400194B44F200D9AA8D /* outdoor.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493F5194B44F200D9AA8D /* outdoor.png */; };
+		04349401194B44F200D9AA8D /* predio 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493F6194B44F200D9AA8D /* predio 1.png */; };
+		04349402194B44F200D9AA8D /* predio 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493F7194B44F200D9AA8D /* predio 2.png */; };
+		04349403194B44F200D9AA8D /* predio 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493F8194B44F200D9AA8D /* predio 3.png */; };
+		04349404194B44F200D9AA8D /* predio 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493F9194B44F200D9AA8D /* predio 4.png */; };
+		04349405194B44F200D9AA8D /* predio 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493FA194B44F200D9AA8D /* predio 5.png */; };
+		04349406194B44F200D9AA8D /* predio 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493FB194B44F200D9AA8D /* predio 6.png */; };
+		04349407194B44F200D9AA8D /* predio 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493FC194B44F200D9AA8D /* predio 7.png */; };
+		04349408194B44F200D9AA8D /* predio 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493FD194B44F200D9AA8D /* predio 8.png */; };
+		04349409194B44F200D9AA8D /* predios cinza escuro.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493FE194B44F200D9AA8D /* predios cinza escuro.png */; };
+		0434940A194B44F200D9AA8D /* predios cinza.png in Resources */ = {isa = PBXBuildFile; fileRef = 043493FF194B44F200D9AA8D /* predios cinza.png */; };
+		04A55F68195084DF00404A0B /* bloco.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A55F67195084DF00404A0B /* bloco.png */; };
+		04CC4E0F195B06DE005DDCB6 /* ceu .png in Resources */ = {isa = PBXBuildFile; fileRef = 04CC4E0E195B06DE005DDCB6 /* ceu .png */; };
+		04CC4E11195B079D005DDCB6 /* predios cinza.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CC4E10195B079D005DDCB6 /* predios cinza.png */; };
+		04CC4E13195B07A7005DDCB6 /* predios cinza escuro.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CC4E12195B07A7005DDCB6 /* predios cinza escuro.png */; };
+		04CC4E15195B07CF005DDCB6 /* predio 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CC4E14195B07CF005DDCB6 /* predio 5.png */; };
+		04CC4E18195B0C11005DDCB6 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC4E17195B0C11005DDCB6 /* Menu.m */; };
+		04CC4E1A195B0CB6005DDCB6 /* MENU-PRONTO.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CC4E19195B0CB6005DDCB6 /* MENU-PRONTO.png */; };
+		04CC4E1C195B17C5005DDCB6 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04CC4E1B195B17C5005DDCB6 /* background.mp3 */; };
+		B32A42A5195B1B9F002CE6BE /* spriteVida.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B32A42A4195B1B9F002CE6BE /* spriteVida.atlas */; };
+		B32AB8401951E01500FC7FB9 /* Alien.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B32AB83F1951E01500FC7FB9 /* Alien.atlas */; };
+		B32C3D0F1948A145006124CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32C3D0E1948A145006124CE /* Foundation.framework */; };
+		B32C3D111948A145006124CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32C3D101948A145006124CE /* CoreGraphics.framework */; };
+		B32C3D131948A145006124CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32C3D121948A145006124CE /* UIKit.framework */; };
+		B32C3D151948A145006124CE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32C3D141948A145006124CE /* SpriteKit.framework */; };
+		B32C3D1B1948A145006124CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B32C3D191948A145006124CE /* InfoPlist.strings */; };
+		B32C3D1D1948A145006124CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3D1C1948A145006124CE /* main.m */; };
+		B32C3D211948A145006124CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3D201948A145006124CE /* AppDelegate.m */; };
+		B32C3D241948A145006124CE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32C3D221948A145006124CE /* Main_iPhone.storyboard */; };
+		B32C3D271948A145006124CE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32C3D251948A145006124CE /* Main_iPad.storyboard */; };
+		B32C3D2A1948A145006124CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3D291948A145006124CE /* ViewController.m */; };
+		B32C3D2D1948A145006124CE /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3D2C1948A145006124CE /* MyScene.m */; };
+		B32C3D311948A145006124CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32C3D301948A145006124CE /* Images.xcassets */; };
+		B32C3D381948A145006124CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32C3D371948A145006124CE /* XCTest.framework */; };
+		B32C3D391948A145006124CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32C3D0E1948A145006124CE /* Foundation.framework */; };
+		B32C3D3A1948A145006124CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32C3D121948A145006124CE /* UIKit.framework */; };
+		B32C3D421948A145006124CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B32C3D401948A145006124CE /* InfoPlist.strings */; };
+		B32C3D441948A145006124CE /* Cyber_Girl_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3D431948A145006124CE /* Cyber_Girl_GameTests.m */; };
+		B32C3D511948A16E006124CE /* PersonagemP.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3D501948A16E006124CE /* PersonagemP.m */; };
+		B32F7CE8194F2E47005176C2 /* andando.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B32F7CE7194F2E47005176C2 /* andando.atlas */; };
+		B32F7CEC194F383D005176C2 /* braco1.png in Resources */ = {isa = PBXBuildFile; fileRef = B32F7CEB194F383D005176C2 /* braco1.png */; };
+		B33E4CAC194B4F1300E02716 /* tiros.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B33E4CAB194B4F1300E02716 /* tiros.atlas */; };
+		B3DC95561959BF180037FB2A /* Sight.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DC95551959BF180037FB2A /* Sight.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B32C3D3B1948A145006124CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32C3D031948A145006124CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32C3D0A1948A145006124CE;
+			remoteInfo = "Cyber Girl Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0429C7951959B7B8006C12C7 /* Hidrante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hidrante.png; path = predios.atlas/Hidrante.png; sourceTree = "<group>"; };
+		0429C7961959B7B8006C12C7 /* predio 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 5.png"; path = "predios.atlas/predio 5.png"; sourceTree = "<group>"; };
+		0429C7971959B7B8006C12C7 /* predio 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 9.png"; path = "predios.atlas/predio 9.png"; sourceTree = "<group>"; };
+		0429C7981959B7B8006C12C7 /* predio 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 11.png"; path = "predios.atlas/predio 11.png"; sourceTree = "<group>"; };
+		0429C7991959B7B8006C12C7 /* predio 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 12.png"; path = "predios.atlas/predio 12.png"; sourceTree = "<group>"; };
+		0429C79A1959B7B8006C12C7 /* predio 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 13.png"; path = "predios.atlas/predio 13.png"; sourceTree = "<group>"; };
+		0429C7A11959B847006C12C7 /* predio 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 10.png"; path = "predios.atlas/predio 10.png"; sourceTree = "<group>"; };
+		0429C7A31959B8B9006C12C7 /* box mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "box mail.png"; path = "predios.atlas/box mail.png"; sourceTree = "<group>"; };
+		0429C7A51959C426006C12C7 /* Poste off(Cyber Girl Force).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Poste off(Cyber Girl Force).png"; sourceTree = "<group>"; };
+		0429C7A61959C426006C12C7 /* Poste on(Cyber Girl Force).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Poste on(Cyber Girl Force).png"; sourceTree = "<group>"; };
+		0429C7A91959CA98006C12C7 /* RandomParallax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomParallax.h; sourceTree = "<group>"; };
+		0429C7AA1959CA98006C12C7 /* RandomParallax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomParallax.m; sourceTree = "<group>"; };
+		0429C7AC1959CC46006C12C7 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		0429C7AD1959CC46006C12C7 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		042A3300195C5928009F2881 /* score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score.png; sourceTree = "<group>"; };
+		042CB809195DAE8B00D39683 /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
+		042CB80A195DAE8B00D39683 /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOver.m; sourceTree = "<group>"; };
+		042CB80C195DB65800D39683 /* logo da equipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo da equipe.png"; sourceTree = "<group>"; };
+		042CB80E195DB66700D39683 /* Logo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logo.h; sourceTree = "<group>"; };
+		042CB80F195DB66700D39683 /* Logo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logo.m; sourceTree = "<group>"; };
+		042CB811195DBC8C00D39683 /* Tiro1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tiro1.wav; sourceTree = "<group>"; };
+		042CB813195DBE8800D39683 /* explosao do inimigo 1.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "explosao do inimigo 1.WAV"; sourceTree = "<group>"; };
+		042D00011948AA7B0081837A /* Tile chao(Cyber Girl Force).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tile chao(Cyber Girl Force).png"; sourceTree = "<group>"; };
+		042DFFFC1948A24E0081837A /* CasinhaFundo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasinhaFundo.h; sourceTree = "<group>"; };
+		042DFFFD1948A24E0081837A /* CasinhaFundo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasinhaFundo.m; sourceTree = "<group>"; };
+		043493F1194B39E900D9AA8D /* FMMParallaxNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMParallaxNode.h; sourceTree = "<group>"; };
+		043493F2194B39E900D9AA8D /* FMMParallaxNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMParallaxNode.m; sourceTree = "<group>"; };
+		043493F5194B44F200D9AA8D /* outdoor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = outdoor.png; path = predios.atlas/outdoor.png; sourceTree = "<group>"; };
+		043493F6194B44F200D9AA8D /* predio 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 1.png"; path = "predios.atlas/predio 1.png"; sourceTree = "<group>"; };
+		043493F7194B44F200D9AA8D /* predio 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 2.png"; path = "predios.atlas/predio 2.png"; sourceTree = "<group>"; };
+		043493F8194B44F200D9AA8D /* predio 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 3.png"; path = "predios.atlas/predio 3.png"; sourceTree = "<group>"; };
+		043493F9194B44F200D9AA8D /* predio 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 4.png"; path = "predios.atlas/predio 4.png"; sourceTree = "<group>"; };
+		043493FA194B44F200D9AA8D /* predio 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 5.png"; path = "predios.atlas/predio 5.png"; sourceTree = "<group>"; };
+		043493FB194B44F200D9AA8D /* predio 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 6.png"; path = "predios.atlas/predio 6.png"; sourceTree = "<group>"; };
+		043493FC194B44F200D9AA8D /* predio 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 7.png"; path = "predios.atlas/predio 7.png"; sourceTree = "<group>"; };
+		043493FD194B44F200D9AA8D /* predio 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 8.png"; path = "predios.atlas/predio 8.png"; sourceTree = "<group>"; };
+		043493FE194B44F200D9AA8D /* predios cinza escuro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predios cinza escuro.png"; path = "predios.atlas/predios cinza escuro.png"; sourceTree = "<group>"; };
+		043493FF194B44F200D9AA8D /* predios cinza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predios cinza.png"; path = "predios.atlas/predios cinza.png"; sourceTree = "<group>"; };
+		04A55F67195084DF00404A0B /* bloco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bloco.png; sourceTree = "<group>"; };
+		04CC4E0E195B06DE005DDCB6 /* ceu .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ceu .png"; sourceTree = "<group>"; };
+		04CC4E10195B079D005DDCB6 /* predios cinza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predios cinza.png"; path = "predios.atlas/predios cinza.png"; sourceTree = "<group>"; };
+		04CC4E12195B07A7005DDCB6 /* predios cinza escuro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predios cinza escuro.png"; path = "predios.atlas/predios cinza escuro.png"; sourceTree = "<group>"; };
+		04CC4E14195B07CF005DDCB6 /* predio 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "predio 5.png"; path = "predios.atlas/predio 5.png"; sourceTree = "<group>"; };
+		04CC4E16195B0C11005DDCB6 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		04CC4E17195B0C11005DDCB6 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		04CC4E19195B0CB6005DDCB6 /* MENU-PRONTO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MENU-PRONTO.png"; sourceTree = "<group>"; };
+		04CC4E1B195B17C5005DDCB6 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		B32A42A4195B1B9F002CE6BE /* spriteVida.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = spriteVida.atlas; sourceTree = "<group>"; };
+		B32AB83F1951E01500FC7FB9 /* Alien.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Alien.atlas; sourceTree = "<group>"; };
+		B32C3D0B1948A145006124CE /* Cyber Girl Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cyber Girl Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32C3D0E1948A145006124CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B32C3D101948A145006124CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B32C3D121948A145006124CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B32C3D141948A145006124CE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B32C3D181948A145006124CE /* Cyber Girl Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cyber Girl Game-Info.plist"; sourceTree = "<group>"; };
+		B32C3D1A1948A145006124CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B32C3D1C1948A145006124CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B32C3D1E1948A145006124CE /* Cyber Girl Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cyber Girl Game-Prefix.pch"; sourceTree = "<group>"; };
+		B32C3D1F1948A145006124CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B32C3D201948A145006124CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B32C3D231948A145006124CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B32C3D261948A145006124CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B32C3D281948A145006124CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B32C3D291948A145006124CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B32C3D2B1948A145006124CE /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		B32C3D2C1948A145006124CE /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		B32C3D301948A145006124CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B32C3D361948A145006124CE /* Cyber Girl GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cyber Girl GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32C3D371948A145006124CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B32C3D3F1948A145006124CE /* Cyber Girl GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cyber Girl GameTests-Info.plist"; sourceTree = "<group>"; };
+		B32C3D411948A145006124CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B32C3D431948A145006124CE /* Cyber_Girl_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cyber_Girl_GameTests.m; sourceTree = "<group>"; };
+		B32C3D4F1948A16E006124CE /* PersonagemP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonagemP.h; sourceTree = "<group>"; };
+		B32C3D501948A16E006124CE /* PersonagemP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonagemP.m; sourceTree = "<group>"; };
+		B32F7CE7194F2E47005176C2 /* andando.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = andando.atlas; sourceTree = "<group>"; };
+		B32F7CEB194F383D005176C2 /* braco1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = braco1.png; path = "braço.atlas/braco1.png"; sourceTree = "<group>"; };
+		B33E4CAB194B4F1300E02716 /* tiros.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = tiros.atlas; sourceTree = "<group>"; };
+		B3DC95551959BF180037FB2A /* Sight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sight.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B32C3D081948A145006124CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32C3D111948A145006124CE /* CoreGraphics.framework in Frameworks */,
+				B32C3D131948A145006124CE /* UIKit.framework in Frameworks */,
+				B32C3D151948A145006124CE /* SpriteKit.framework in Frameworks */,
+				B32C3D0F1948A145006124CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32C3D331948A145006124CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32C3D381948A145006124CE /* XCTest.framework in Frameworks */,
+				B32C3D3A1948A145006124CE /* UIKit.framework in Frameworks */,
+				B32C3D391948A145006124CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043493F4194B44E900D9AA8D /* predios */ = {
+			isa = PBXGroup;
+			children = (
+				04CC4E14195B07CF005DDCB6 /* predio 5.png */,
+				04CC4E12195B07A7005DDCB6 /* predios cinza escuro.png */,
+				04CC4E10195B079D005DDCB6 /* predios cinza.png */,
+				0429C7A31959B8B9006C12C7 /* box mail.png */,
+				0429C7A11959B847006C12C7 /* predio 10.png */,
+				0429C7951959B7B8006C12C7 /* Hidrante.png */,
+				0429C7961959B7B8006C12C7 /* predio 5.png */,
+				0429C7971959B7B8006C12C7 /* predio 9.png */,
+				0429C7981959B7B8006C12C7 /* predio 11.png */,
+				0429C7991959B7B8006C12C7 /* predio 12.png */,
+				0429C79A1959B7B8006C12C7 /* predio 13.png */,
+				043493F5194B44F200D9AA8D /* outdoor.png */,
+				043493F6194B44F200D9AA8D /* predio 1.png */,
+				043493F7194B44F200D9AA8D /* predio 2.png */,
+				043493F8194B44F200D9AA8D /* predio 3.png */,
+				043493F9194B44F200D9AA8D /* predio 4.png */,
+				043493FA194B44F200D9AA8D /* predio 5.png */,
+				043493FB194B44F200D9AA8D /* predio 6.png */,
+				043493FC194B44F200D9AA8D /* predio 7.png */,
+				043493FD194B44F200D9AA8D /* predio 8.png */,
+				043493FE194B44F200D9AA8D /* predios cinza escuro.png */,
+				043493FF194B44F200D9AA8D /* predios cinza.png */,
+			);
+			name = predios;
+			sourceTree = "<group>";
+		};
+		B32C3D021948A145006124CE = {
+			isa = PBXGroup;
+			children = (
+				B32C3D161948A145006124CE /* Cyber Girl Game */,
+				B32C3D3D1948A145006124CE /* Cyber Girl GameTests */,
+				B32C3D0D1948A145006124CE /* Frameworks */,
+				B32C3D0C1948A145006124CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B32C3D0C1948A145006124CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B32C3D0B1948A145006124CE /* Cyber Girl Game.app */,
+				B32C3D361948A145006124CE /* Cyber Girl GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B32C3D0D1948A145006124CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32C3D0E1948A145006124CE /* Foundation.framework */,
+				B32C3D101948A145006124CE /* CoreGraphics.framework */,
+				B32C3D121948A145006124CE /* UIKit.framework */,
+				B32C3D141948A145006124CE /* SpriteKit.framework */,
+				B32C3D371948A145006124CE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B32C3D161948A145006124CE /* Cyber Girl Game */ = {
+			isa = PBXGroup;
+			children = (
+				04CC4E16195B0C11005DDCB6 /* Menu.h */,
+				04CC4E17195B0C11005DDCB6 /* Menu.m */,
+				0429C7A91959CA98006C12C7 /* RandomParallax.h */,
+				0429C7AA1959CA98006C12C7 /* RandomParallax.m */,
+				043493F1194B39E900D9AA8D /* FMMParallaxNode.h */,
+				043493F2194B39E900D9AA8D /* FMMParallaxNode.m */,
+				B32C3D4F1948A16E006124CE /* PersonagemP.h */,
+				B32C3D501948A16E006124CE /* PersonagemP.m */,
+				B32C3D1F1948A145006124CE /* AppDelegate.h */,
+				B32C3D201948A145006124CE /* AppDelegate.m */,
+				B32C3D221948A145006124CE /* Main_iPhone.storyboard */,
+				B32C3D251948A145006124CE /* Main_iPad.storyboard */,
+				B32C3D281948A145006124CE /* ViewController.h */,
+				B32C3D291948A145006124CE /* ViewController.m */,
+				042DFFFC1948A24E0081837A /* CasinhaFundo.h */,
+				042DFFFD1948A24E0081837A /* CasinhaFundo.m */,
+				B32C3D2B1948A145006124CE /* MyScene.h */,
+				B32C3D2C1948A145006124CE /* MyScene.m */,
+				0429C7AC1959CC46006C12C7 /* Score.h */,
+				0429C7AD1959CC46006C12C7 /* Score.m */,
+				042CB80C195DB65800D39683 /* logo da equipe.png */,
+				B32C3D301948A145006124CE /* Images.xcassets */,
+				042CB813195DBE8800D39683 /* explosao do inimigo 1.WAV */,
+				042CB811195DBC8C00D39683 /* Tiro1.wav */,
+				B32C3D171948A145006124CE /* Supporting Files */,
+				042CB809195DAE8B00D39683 /* GameOver.h */,
+				042CB80A195DAE8B00D39683 /* GameOver.m */,
+				042CB80E195DB66700D39683 /* Logo.h */,
+				042CB80F195DB66700D39683 /* Logo.m */,
+			);
+			path = "Cyber Girl Game";
+			sourceTree = "<group>";
+		};
+		B32C3D171948A145006124CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042A3300195C5928009F2881 /* score.png */,
+				B32A42A4195B1B9F002CE6BE /* spriteVida.atlas */,
+				04CC4E1B195B17C5005DDCB6 /* background.mp3 */,
+				04CC4E19195B0CB6005DDCB6 /* MENU-PRONTO.png */,
+				04CC4E0E195B06DE005DDCB6 /* ceu .png */,
+				0429C7A51959C426006C12C7 /* Poste off(Cyber Girl Force).png */,
+				0429C7A61959C426006C12C7 /* Poste on(Cyber Girl Force).png */,
+				B3DC95551959BF180037FB2A /* Sight.png */,
+				B32AB83F1951E01500FC7FB9 /* Alien.atlas */,
+				B32F7CEB194F383D005176C2 /* braco1.png */,
+				B32F7CE7194F2E47005176C2 /* andando.atlas */,
+				B33E4CAB194B4F1300E02716 /* tiros.atlas */,
+				043493F4194B44E900D9AA8D /* predios */,
+				042D00011948AA7B0081837A /* Tile chao(Cyber Girl Force).png */,
+				04A55F67195084DF00404A0B /* bloco.png */,
+				B32C3D181948A145006124CE /* Cyber Girl Game-Info.plist */,
+				B32C3D191948A145006124CE /* InfoPlist.strings */,
+				B32C3D1C1948A145006124CE /* main.m */,
+				B32C3D1E1948A145006124CE /* Cyber Girl Game-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B32C3D3D1948A145006124CE /* Cyber Girl GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				B32C3D431948A145006124CE /* Cyber_Girl_GameTests.m */,
+				B32C3D3E1948A145006124CE /* Supporting Files */,
+			);
+			path = "Cyber Girl GameTests";
+			sourceTree = "<group>";
+		};
+		B32C3D3E1948A145006124CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32C3D3F1948A145006124CE /* Cyber Girl GameTests-Info.plist */,
+				B32C3D401948A145006124CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B32C3D0A1948A145006124CE /* Cyber Girl Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32C3D471948A145006124CE /* Build configuration list for PBXNativeTarget "Cyber Girl Game" */;
+			buildPhases = (
+				B32C3D071948A145006124CE /* Sources */,
+				B32C3D081948A145006124CE /* Frameworks */,
+				B32C3D091948A145006124CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cyber Girl Game";
+			productName = "Cyber Girl Game";
+			productReference = B32C3D0B1948A145006124CE /* Cyber Girl Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B32C3D351948A145006124CE /* Cyber Girl GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32C3D4A1948A145006124CE /* Build configuration list for PBXNativeTarget "Cyber Girl GameTests" */;
+			buildPhases = (
+				B32C3D321948A145006124CE /* Sources */,
+				B32C3D331948A145006124CE /* Frameworks */,
+				B32C3D341948A145006124CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32C3D3C1948A145006124CE /* PBXTargetDependency */,
+			);
+			name = "Cyber Girl GameTests";
+			productName = "Cyber Girl GameTests";
+			productReference = B32C3D361948A145006124CE /* Cyber Girl GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32C3D031948A145006124CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "GABRIEL SOUZA DE OLIVEIRA";
+				TargetAttributes = {
+					B32C3D351948A145006124CE = {
+						TestTargetID = B32C3D0A1948A145006124CE;
+					};
+				};
+			};
+			buildConfigurationList = B32C3D061948A145006124CE /* Build configuration list for PBXProject "Cyber Girl Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B32C3D021948A145006124CE;
+			productRefGroup = B32C3D0C1948A145006124CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B32C3D0A1948A145006124CE /* Cyber Girl Game */,
+				B32C3D351948A145006124CE /* Cyber Girl GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32C3D091948A145006124CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04349400194B44F200D9AA8D /* outdoor.png in Resources */,
+				042D00021948AA7B0081837A /* Tile chao(Cyber Girl Force).png in Resources */,
+				0429C7A71959C426006C12C7 /* Poste off(Cyber Girl Force).png in Resources */,
+				04CC4E13195B07A7005DDCB6 /* predios cinza escuro.png in Resources */,
+				042CB814195DBE8800D39683 /* explosao do inimigo 1.WAV in Resources */,
+				0429C7A01959B7B8006C12C7 /* predio 13.png in Resources */,
+				0429C79E1959B7B8006C12C7 /* predio 11.png in Resources */,
+				0429C7A41959B8B9006C12C7 /* box mail.png in Resources */,
+				04349409194B44F200D9AA8D /* predios cinza escuro.png in Resources */,
+				0429C7A21959B847006C12C7 /* predio 10.png in Resources */,
+				B32AB8401951E01500FC7FB9 /* Alien.atlas in Resources */,
+				B32C3D311948A145006124CE /* Images.xcassets in Resources */,
+				0434940A194B44F200D9AA8D /* predios cinza.png in Resources */,
+				042CB812195DBC8C00D39683 /* Tiro1.wav in Resources */,
+				B32F7CEC194F383D005176C2 /* braco1.png in Resources */,
+				B32A42A5195B1B9F002CE6BE /* spriteVida.atlas in Resources */,
+				04349401194B44F200D9AA8D /* predio 1.png in Resources */,
+				04CC4E15195B07CF005DDCB6 /* predio 5.png in Resources */,
+				04A55F68195084DF00404A0B /* bloco.png in Resources */,
+				B32C3D271948A145006124CE /* Main_iPad.storyboard in Resources */,
+				04349408194B44F200D9AA8D /* predio 8.png in Resources */,
+				04CC4E11195B079D005DDCB6 /* predios cinza.png in Resources */,
+				0429C79F1959B7B8006C12C7 /* predio 12.png in Resources */,
+				042CB80D195DB65800D39683 /* logo da equipe.png in Resources */,
+				04349406194B44F200D9AA8D /* predio 6.png in Resources */,
+				04349404194B44F200D9AA8D /* predio 4.png in Resources */,
+				042A3301195C5928009F2881 /* score.png in Resources */,
+				0429C79D1959B7B8006C12C7 /* predio 9.png in Resources */,
+				04349402194B44F200D9AA8D /* predio 2.png in Resources */,
+				0429C79C1959B7B8006C12C7 /* predio 5.png in Resources */,
+				B32F7CE8194F2E47005176C2 /* andando.atlas in Resources */,
+				04349403194B44F200D9AA8D /* predio 3.png in Resources */,
+				04CC4E0F195B06DE005DDCB6 /* ceu .png in Resources */,
+				04CC4E1C195B17C5005DDCB6 /* background.mp3 in Resources */,
+				0429C7A81959C426006C12C7 /* Poste on(Cyber Girl Force).png in Resources */,
+				04349405194B44F200D9AA8D /* predio 5.png in Resources */,
+				B32C3D241948A145006124CE /* Main_iPhone.storyboard in Resources */,
+				04CC4E1A195B0CB6005DDCB6 /* MENU-PRONTO.png in Resources */,
+				B3DC95561959BF180037FB2A /* Sight.png in Resources */,
+				04349407194B44F200D9AA8D /* predio 7.png in Resources */,
+				B32C3D1B1948A145006124CE /* InfoPlist.strings in Resources */,
+				0429C79B1959B7B8006C12C7 /* Hidrante.png in Resources */,
+				B33E4CAC194B4F1300E02716 /* tiros.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32C3D341948A145006124CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32C3D421948A145006124CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B32C3D071948A145006124CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CC4E18195B0C11005DDCB6 /* Menu.m in Sources */,
+				B32C3D2D1948A145006124CE /* MyScene.m in Sources */,
+				042CB810195DB66700D39683 /* Logo.m in Sources */,
+				0429C7AB1959CA98006C12C7 /* RandomParallax.m in Sources */,
+				043493F3194B39E900D9AA8D /* FMMParallaxNode.m in Sources */,
+				0429C7AE1959CC46006C12C7 /* Score.m in Sources */,
+				B32C3D2A1948A145006124CE /* ViewController.m in Sources */,
+				B32C3D211948A145006124CE /* AppDelegate.m in Sources */,
+				B32C3D1D1948A145006124CE /* main.m in Sources */,
+				042DFFFE1948A24E0081837A /* CasinhaFundo.m in Sources */,
+				B32C3D511948A16E006124CE /* PersonagemP.m in Sources */,
+				042CB80B195DAE8B00D39683 /* GameOver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32C3D321948A145006124CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32C3D441948A145006124CE /* Cyber_Girl_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B32C3D3C1948A145006124CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32C3D0A1948A145006124CE /* Cyber Girl Game */;
+			targetProxy = B32C3D3B1948A145006124CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B32C3D191948A145006124CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32C3D1A1948A145006124CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B32C3D221948A145006124CE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32C3D231948A145006124CE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B32C3D251948A145006124CE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32C3D261948A145006124CE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B32C3D401948A145006124CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32C3D411948A145006124CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B32C3D451948A145006124CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B32C3D461948A145006124CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B32C3D481948A145006124CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cyber Girl Game/Cyber Girl Game-Prefix.pch";
+				INFOPLIST_FILE = "Cyber Girl Game/Cyber Girl Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B32C3D491948A145006124CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cyber Girl Game/Cyber Girl Game-Prefix.pch";
+				INFOPLIST_FILE = "Cyber Girl Game/Cyber Girl Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B32C3D4B1948A145006124CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cyber Girl Game.app/Cyber Girl Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cyber Girl Game/Cyber Girl Game-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cyber Girl GameTests/Cyber Girl GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B32C3D4C1948A145006124CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cyber Girl Game.app/Cyber Girl Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cyber Girl Game/Cyber Girl Game-Prefix.pch";
+				INFOPLIST_FILE = "Cyber Girl GameTests/Cyber Girl GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B32C3D061948A145006124CE /* Build configuration list for PBXProject "Cyber Girl Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32C3D451948A145006124CE /* Debug */,
+				B32C3D461948A145006124CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32C3D471948A145006124CE /* Build configuration list for PBXNativeTarget "Cyber Girl Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32C3D481948A145006124CE /* Debug */,
+				B32C3D491948A145006124CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32C3D4A1948A145006124CE /* Build configuration list for PBXNativeTarget "Cyber Girl GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32C3D4B1948A145006124CE /* Debug */,
+				B32C3D4C1948A145006124CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B32C3D031948A145006124CE /* Project object */;
+}
