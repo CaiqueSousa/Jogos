@@ -7,4 +7,4 @@ Jogos que desenvolvo,
 
 <br>https://gabrielsutt.itch.io/battle-box<br>
 
-<strong><br>Portfólio:https://github.com/CaiqueSousa/Portifolio.git<br></strong>
+<strong><br>Portfólio:https://github.com/andersoncsousa/Portifolio<br></strong>
