@@ -1,0 +1,118 @@
+<!--Developer Caique Sousa-->
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jogo da Velha</title>
+<div style="text-align: center; font-size: 20px; font-weight: bolder;">*Aperte F5 para jogar novamente.</br>*Use mouse para jogar.</br>*Um jogador de cada vez.</div>
+    <!--estilo do tabuleiro do jogo-->
+ 	<style type="text/css">
+
+    #jogo{
+        width:603px;
+        height:603px;
+        border:solid 3px;
+        border-color:#6A5ACD; 
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 28%;
+        box-shadow: 7px 7px 5px #708090;
+        margin-bottom: 15px;
+        border-style: ridge;
+        margin-top: 15px;
+        
+    }
+ 
+    .linha{
+        height:200px;
+        border-bottom:solid 1px;
+        border-color:#6A5ACD; 
+    }
+ 
+    .casa{
+        width:200px;
+        height:100%;
+        border-right:solid 1px;
+        float:left;
+        border-color:#6A5ACD; 
+    }
+    </style>   
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var vez = 1;
+            var vencedor = "";
+
+            //função de comparação que determina quem ganhou
+            function casasIguais(a, b, c){
+                var casaA = $("#casa"+a);
+                var casaB = $("#casa"+b);
+                var casaC = $("#casa"+c);
+                var bgA = $("#casa"+a).css("background-image");
+                var bgB = $("#casa"+b).css("background-image");
+                var bgC = $("#casa"+c).css("background-image");
+                if( (bgA == bgB) && (bgB == bgC) && (bgA != "none" && bgA != "")){
+                    if(bgA.indexOf("1.jpg") >= 0)
+                        vencedor = "1";
+                    else
+                        vencedor = "2";
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            }
+
+
+            function verificarFimDeJogo(){
+                if( casasIguais(1, 2, 3) || casasIguais(4, 5, 6) || casasIguais(7, 8, 9) ||
+                    casasIguais(1, 4, 7) || casasIguais(2, 5, 8) || casasIguais(3, 6, 9) ||
+                    casasIguais(1, 5, 9) || casasIguais(3, 5, 7)
+                    ){
+                    $("#resultado").html("<h1>O jogador " + vencedor + " Venceu! </h1>");
+                    $(".casa").off("click");
+                }
+            }
+
+            //função  do clique que coloca a imagem de X ou O na tela
+            $(".casa").click(function(){
+                var bg = $(this).css("background-image");
+                if(bg == "none" || bg == "")
+                {          
+                    var fig = "url(" + vez.toString() + ".jpg)";
+                    $(this).css("background", fig);
+                    vez = (vez == 1? 2:1); 
+                    verificarFimDeJogo();
+                }
+            });
+
+
+            });
+    </script>
+
+</head>
+
+<body>
+<!--desenhando o tabuleiro do jogo da velha-->
+<div id="jogo"">
+            <div class="linha">
+                <div class="casa" id="casa1"></div>
+                <div class="casa" id="casa2"></div>
+                <div class="casa" id="casa3"></div>
+            </div>
+            <div class="linha">
+                <div class="casa" id="casa4"></div>
+                <div class="casa" id="casa5"></div>
+                <div class="casa" id="casa6"></div>
+            </div>
+            <div class="linha">
+                <div class="casa" id="casa7"></div>
+                <div class="casa" id="casa8"></div>
+                <div class="casa" id="casa9"></div>
+            </div>
+        </div>
+        <div id="resultado" style="text-align: center; font-size: 20px; font-weight: bolder;"></div>
+        <div style="text-align: center; font-size: 10px; font-weight: bolder;"> Developer: Caique Sousa</div>
+</body>
+</html>
